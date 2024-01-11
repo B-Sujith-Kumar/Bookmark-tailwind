@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="bg-[#252B46] py-16">
       <div className="flex max-w-[90%] mx-auto items-center justify-between max-md-2:flex-col max-md-2:gap-10">
         <div className="flex uppercase text-slate-500 gap-16 max-md-2:gap-10 items-center max-md-2:flex-col">
-          <img src={logo} alt="logo" className="" />
+          <a href="/"><img src={logo} alt="logo" className="" /></a>
           <p className="hover:text-red-400 cursor-pointer text-xl">
             <a href="#features">Features</a>
           </p>
